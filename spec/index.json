@@ -1,1 +1,7 @@
-{}
+{
+    "count": "an integer that can only increase",
+	"integer": "an integer that can both increase and decrease",
+    "numeric": "a number that is not an integer, such as a decimal",
+    "percentage": "a percentage with a value between 0 and 1 inclusive",
+    "time": "a measure of time, such as milliseconds or seconds"
+}

@@ -1,9 +1,7 @@
-{{ Specification Name }}
+Dictionary of Data Types
 ===
 
-
-## Description
-
+Dictionary of data types used in these metrics.
 
 
 ## License
