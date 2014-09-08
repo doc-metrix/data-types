@@ -1,0 +1,30 @@
+{
+  "name": "doc-metrix-data-types",
+  "version": "0.0.0",
+  "description": "A specification for data types used in metric specifications.",
+  "authors": [
+    {
+      "name": "Nick Wei",
+      "email": "nick@nodeprime.com"
+    }
+  ],
+  "main": "spec/index.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doc-metrix/data-types.git"
+  },
+  "keywords": [
+    "doc-metrix",
+    "specification",
+    "data types",
+    "metrics",
+    "documentation"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "ignore": [
+    "TODO.md",
+    ".*"
+  ],
+  "license": "MIT"
+}
