@@ -1,6 +1,6 @@
 {
     "count": "an integer value that can only increase",
-	"integer": "a numeric value that can be written without a fractional component",
+    "integer": "a numeric value that can be written without a fractional component",
     "numeric": "a numeric value which may have a fractional component (i.e., decimals)",
     "percentage": "a unitless value between 0 and 1 inclusive",
     "time": "a measure of time, having units such as milliseconds or seconds"
