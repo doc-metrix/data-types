@@ -3,8 +3,6 @@ Data Types
 
 > Specification of data types used in metric specifications.
 
-## Description
-
 A metric may be one of the following data types...
 
 #### count
@@ -31,7 +29,7 @@ A unitless value on the interval `[0,1]`.
 
 A value which is a measure of time, having units such as `milliseconds`, `seconds`, `days`, etc.
 
-
+===
 ## Contributing
 
 To contribute to the data-type specification, see the contributing [guide](https://github.com/doc-metrix/contributing). Any updates to the specification should be tagged.
@@ -48,7 +46,7 @@ Use [semantic versioning](http://semver.org/) (semvar) for communicating version
 * 	Any specification restructuring (changing field names, removing fields, etc) should be communicated as a `major` update.
 
 
-
+===
 ## Usage
 
 The specification is stored as [JSON](http://json.org/), a lightweight data-interchange format. Many languages provide JSON support: [JavaScript](http://www.json.org/js.html), [Python](https://docs.python.org/2/library/json.html), [Go](http://golang.org/pkg/encoding/json/), [PHP](http://php.net/manual/en/book.json.php), [Java](http://json.org/java/), [Haskell](http://hackage.haskell.org/package/json), and [others](http://json.org/).
