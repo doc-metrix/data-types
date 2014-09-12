@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Data-types by doc-metrix</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Data-types</h1>
+        <p>Data types used in metric specifications.</p>
+
+        <p class="view"><a href="https://github.com/doc-metrix/data-types">View the Project on GitHub <small>doc-metrix/data-types</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/doc-metrix/data-types/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/doc-metrix/data-types/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/doc-metrix/data-types">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="data-types" class="anchor" href="#data-types"><span class="octicon octicon-link"></span></a>Data Types</h1>
+
+<blockquote>
+<p>Specification of data types used in metric specifications.</p>
+</blockquote>
+
+<p>A metric may be one of the following data types...</p>
+
+<h4>
+<a name="count" class="anchor" href="#count"><span class="octicon octicon-link"></span></a>count</h4>
+
+<p>An <code>integer</code> that can only increase.</p>
+
+<h4>
+<a name="integer" class="anchor" href="#integer"><span class="octicon octicon-link"></span></a>integer</h4>
+
+<p>A numeric value that can be written without a fractional component. May increase or decrease.</p>
+
+<h4>
+<a name="numeric" class="anchor" href="#numeric"><span class="octicon octicon-link"></span></a>numeric</h4>
+
+<p>A numeric value which may have a fractional component (i.e., decimals).</p>
+
+<h4>
+<a name="percentage" class="anchor" href="#percentage"><span class="octicon octicon-link"></span></a>percentage</h4>
+
+<p>A unitless value on the interval <code>[0,1]</code>.</p>
+
+<h4>
+<a name="time" class="anchor" href="#time"><span class="octicon octicon-link"></span></a>time</h4>
+
+<p>A value which is a measure of time, having units such as <code>milliseconds</code>, <code>seconds</code>, <code>days</code>, etc.</p>
+
+<h1></h1>
+
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>To contribute to the data-type specification, see the contributing <a href="https://github.com/doc-metrix/contributing">guide</a>. Any updates to the specification should be tagged.</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>git tag -a &lt;major.minor.patch&gt; -m <span class="s2">"[UPDATE] version."</span>
+<span class="nv">$ </span>git push origin &lt;major.minor.patch&gt;
+</pre></div>
+
+<p>Use <a href="http://semver.org/">semantic versioning</a> (semvar) for communicating versions.</p>
+
+<ul>
+<li>  Any new data types should be communicated as <code>minor</code> updates.</li>
+<li>  Any corrections/value modifications should be <code>patches</code>.</li>
+<li>  Any specification restructuring (changing field names, removing fields, etc) should be communicated as a <code>major</code> update.</li>
+</ul><h1></h1>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>The specification is stored as <a href="http://json.org/">JSON</a>, a lightweight data-interchange format. Many languages provide JSON support: <a href="http://www.json.org/js.html">JavaScript</a>, <a href="https://docs.python.org/2/library/json.html">Python</a>, <a href="http://golang.org/pkg/encoding/json/">Go</a>, <a href="http://php.net/manual/en/book.json.php">PHP</a>, <a href="http://json.org/java/">Java</a>, <a href="http://hackage.haskell.org/package/json">Haskell</a>, and <a href="http://json.org/">others</a>.</p>
+
+<p>You are free to use the JSON specification, as is. Simply copy the file and use accordingly.</p>
+
+<p>For those using package managers to manage dependencies, we provide package manager support, as outlined below.</p>
+
+<h3>
+<a name="bower" class="anchor" href="#bower"><span class="octicon octicon-link"></span></a>Bower</h3>
+
+<p>The specification is registered as a <a href="http://bower.io">Bower</a> package. Bower provides a straightforward means for managing dependencies.</p>
+
+<p>In order to use Bower, you must first install <a href="http://nodejs.org/">Node.js</a> and <a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Git</a>. Once the prerequisites are installed,</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>npm install -g bower
+</pre></div>
+
+<p>To <a href="http://bower.io/docs/api/#install">install</a> the latest specification,</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>bower install doc-metrix-data-types
+</pre></div>
+
+<p>Bower will place the specification in a <code>bower_components/</code> directory within the current working directory.</p>
+
+<p>To <a href="http://bower.io/docs/api/#update">update</a> to the latest specification,</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>bower update doc-metrix-data-types
+</pre></div>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="http://opensource.org/licenses/MIT">MIT license</a>. </p>
+
+<hr><h2>
+<a name="copyright" class="anchor" href="#copyright"><span class="octicon octicon-link"></span></a>Copyright</h2>
+
+<p>Copyright © 2014. NodePrime.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/doc-metrix">doc-metrix</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
