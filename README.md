@@ -20,6 +20,21 @@ A numeric value that can be written without a fractional component. May increase
 A numeric value which may have a fractional component (i.e., decimals).
 
 
+#### binary
+
+A numeric value having base 2.
+
+
+#### octal
+
+A numeric value having base 8.
+
+
+#### hexadecimal
+
+A value having base 16.
+
+
 #### percentage
 
 A unitless value on the interval `[0,1]`.
@@ -28,6 +43,11 @@ A unitless value on the interval `[0,1]`.
 #### time
 
 A value which is a measure of time, having units such as `milliseconds`, `seconds`, `days`, etc.
+
+
+#### string
+
+A sequence of character values.
 
 ===
 ## Contributing

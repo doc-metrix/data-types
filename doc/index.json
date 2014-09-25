@@ -3,5 +3,9 @@
     "integer": "a numeric value that can be written without a fractional component",
     "numeric": "a numeric value which may have a fractional component (i.e., decimals)",
     "percentage": "a unitless value between 0 and 1 inclusive",
-    "time": "a measure of time, having units such as milliseconds or seconds"
+    "time": "a measure of time, having units such as milliseconds or seconds",
+    "string": "a sequence of character values",
+    "binary": "a numeric value having base 2",
+    "hexadecimal": "a value having base 16",
+    "octal": "a numeric value having base 8"
 }
