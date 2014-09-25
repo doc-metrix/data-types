@@ -1,7 +1,7 @@
 {
   "name": "doc-metrix-data-types",
   "version": "0.0.0",
-  "description": "A specification for data types used in metric specifications.",
+  "description": "Data types used in metric documentation.",
   "authors": [
     {
       "name": "Nick Wei",
@@ -15,7 +15,6 @@
   },
   "keywords": [
     "doc-metrix",
-    "specification",
     "data types",
     "metrics",
     "documentation"
